@@ -13,7 +13,7 @@ docker build -t ocsinglesuser https://github.com/sinakaya/OCSingleUser.git#main
 
 3. Run docker container
 ```bash
-docker run --name ocsinglesuser --privileged -p 443:443 -p 443:443/udp -d ocsinglesuser
+docker run --name ocsinglesuser --privileged -p 994:994 -p 994:994/udp -d ocsinglesuser
 ```
 
 4. Add user
